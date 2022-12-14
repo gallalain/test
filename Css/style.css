@@ -8,3 +8,18 @@ html, body {
 .navbar-nav {
 bg
 }
+@media (max-width: 767px) {
+    #pushContent {
+    height: 222.5px;
+    width:100%;
+    display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    #pushContent {
+    height: 222.5px;
+    width:100%;
+    display: none;
+    }
+}
