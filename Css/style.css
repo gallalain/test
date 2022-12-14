@@ -10,6 +10,7 @@ bg
 }
 @media (max-width: 767px) {
     #pushContent {
+      background-color:yellow;
     height: 222.5px;
     width:100%;
     display: none;
