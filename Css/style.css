@@ -1,11 +1,10 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color:blue;
 }
 .card-body {position:absolute;
   top:100px;z-index:0;
-  background-color: brown;}
+  }
 
 div {position:relative;
     z-index: 3}
