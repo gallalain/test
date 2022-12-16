@@ -6,6 +6,8 @@ html, body {
   top:100px;z-index:0;
   }
 
+.card-footer {position:absolute;z-index:0}
+
 div {position:relative;
     z-index: 3}
 
