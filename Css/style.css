@@ -12,5 +12,7 @@ div {position:relative;
     a:hover{
  background-color:rgb(105, 213, 240)
     }
-    
+
+    .img-thumbnail {vertical-align: bottom;}
+ .gal1 {background-color: brown;}
     
