@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.z0 {position:absolute;top: 100px;
+ z-index:0;
+ }
+
+div {position:relative;
+    z-index: 3}
+
+    a:hover{
+ background-color:rgb(105, 213, 240)
+    }
+
+    .img-thumbnail {vertical-align: bottom;}
+ .gal1 {background-color: brown;}
