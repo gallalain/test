@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap",
+  "version": "5.2.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gallalain/test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gallalain/test/issues"
+  },
+  "homepage": "https://github.com/gallalain/test#readme"
+}
