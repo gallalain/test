@@ -1,0 +1,7 @@
+{
+  "liveSassCompile.settings.partialsList": [
+    "/**/_*.s[ac]ss",
+    "/css"
+  ],
+  "liveSassCompile.settings.rootIsWorkspace": true
+}

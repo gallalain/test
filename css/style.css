@@ -4119,7 +4119,7 @@ textarea.form-control-lg {
   --bs-card-cap-padding-x: 1rem;
   --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
   --bs-card-cap-color: ;
-  --bs-card-height: ;
+  --bs-card-height: 50em;
   --bs-card-color: ;
   --bs-card-bg: #fff;
   --bs-card-img-overlay-padding: 1rem;
@@ -10768,6 +10768,29 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.z0 {
+  position: absolute;
+  top: 100px;
+  z-index: 0;
+}
+
+div {
+  position: relative;
+  z-index: 3;
+}
+
+.cont {
+  margin-top: 5rem;
+}
+
+.navbar {
+  position: relative;
+  z-index: 3;
+}
+
+a:hover {
+  background-color: rgb(212, 237, 243);
 }
 
 /*# sourceMappingURL=style.css.map */

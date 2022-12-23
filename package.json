@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gallalain/test/issues"
   },
-  "homepage": "https://github.com/gallalain/test#readme"
+  "homepage": "https://github.com/gallalain/test#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.10.2"
+  }
 }
