@@ -6,7 +6,8 @@
 	],
 	"extensions": {
 		"recommendations": [
-			"glenn2223.live-sass"
+			"glenn2223.live-sass",
+			"igordvlpr.open-in-browser"
 		]
 	}
 }

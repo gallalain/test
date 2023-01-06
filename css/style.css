@@ -4352,7 +4352,7 @@ textarea.form-control-lg {
   --bs-card-cap-padding-x: 1rem;
   --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
   --bs-card-cap-color: ;
-  --bs-card-height: 50em;
+  --bs-card-height: ;
   --bs-card-color: ;
   --bs-card-bg: var(--bs-body-bg);
   --bs-card-img-overlay-padding: 1rem;
@@ -11843,8 +11843,14 @@ body {
   min-height: 100vh;
 }
 
-@media screen and (min-width: 1280px) {
-  .card {
-    max-width: 75%;
+.scrd {
+  position: absolute;
+  top: 8%;
+}
+
+@media screen and (max-width: 650px) {
+  .rss {
+    width: 30px;
+    height: 30px;
   }
 }/*# sourceMappingURL=style.css.map */

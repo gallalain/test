@@ -4,7 +4,16 @@
 body {background-color: rgb(3, 125, 129);
   min-height: 100vh;
 }
-@media screen and (min-width : 1280px) {.card {max-width: 75%;}}
+.scrd {position:absolute; top: 8%;}
+
+
+@media screen and (max-width : 650px) {.rss {
+  width: 30px;
+  height: 30px;
+};
+}
+
+
 
 
 
