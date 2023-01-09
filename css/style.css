@@ -4,6 +4,7 @@
  * Copyright 2011-2022 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11841,6 +11842,8 @@ textarea.form-control-lg {
 body {
   background-color: rgb(3, 125, 129);
   min-height: 100vh;
+  font-family: "Handlee", cursive;
+  font-size: 1.2em;
 }
 
 .scrd {
@@ -11856,7 +11859,7 @@ body {
 }
 .navbar {
   font-weight: bold;
-  background-color: #e7f5f1;
+  background-color: #a7dcf1;
 }
 
 .nav-link {
@@ -11881,8 +11884,15 @@ body {
   color: white;
 }
 
-.bg-image {
+.bg-bas {
   background-image: url("../Images/Bas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-haut {
+  background-image: url("../Images/Haut.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

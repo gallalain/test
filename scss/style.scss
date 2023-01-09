@@ -1,8 +1,11 @@
 @import "_variable_perso";
 @import "../bootstrap-5.3.0-alpha1/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 
 body {background-color: rgb(3, 125, 129);
   min-height: 100vh;
+  font-family: 'Handlee', cursive;
+  font-size: 1.2em;
 }
 .scrd {position:absolute; top: 8%;}
 
@@ -12,14 +15,20 @@ body {background-color: rgb(3, 125, 129);
   height: 30px;
 };
 }
-.navbar {font-weight: bold;background-color: #e7f5f1;}
+.navbar {font-weight: bold;background-color: #a7dcf1;}
 .nav-link{color:rgb(133, 99, 8)}
 .navbar-brand{color:#dc3545}
 .card-header{background-color: #e7f5f1;}
 .card-footer{background-color: #e7f5f1;}
 .actives{padding-left: 2rem;background-color: #5db199;color:white}
-.bg-image{
+.bg-bas{
   background-image: url('../Images/Bas.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+.bg-haut{
+  background-image: url('../Images/Haut.jpg');
   background-repeat: no-repeat;
   background-size:cover;
   background-position:center;
