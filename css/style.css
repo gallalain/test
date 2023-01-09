@@ -11879,4 +11879,11 @@ body {
   padding-left: 2rem;
   background-color: #5db199;
   color: white;
+}
+
+.bg-image {
+  background-image: url("../Images/Bas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }/*# sourceMappingURL=style.css.map */
